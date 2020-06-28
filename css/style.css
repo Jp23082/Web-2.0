@@ -1,5 +1,7 @@
 html{
     scroll-behavior: smooth;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
 }
 
 body{
@@ -226,7 +228,8 @@ iframe{
 
 ::-webkit-scrollbar
 {
-    width: 0;
+    /* width: 0; */
+    display: none;
 }
 #percent
 {
@@ -271,7 +274,7 @@ iframe{
 #instagram .icon .iconBx
 {
     position: relative;
-    width: calc(50% - 40px);
+    /* width: calc(50% - 40px); */
     margin: 30px 30px 30px 0px;
     padding: 0 25px;
     height: 140px;
