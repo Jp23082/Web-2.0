@@ -294,7 +294,7 @@ iframe{
 
 #instagram .icon .iconBx img 
 {
-    max-width: 100%;
+    max-width: 100px;
     filter: grayscale(1);
     transition: 0.5s;
     transform: scale(0.8);
